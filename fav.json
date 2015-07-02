@@ -1,0 +1,25 @@
+
+[
+
+{
+	"uID": "1",
+	"myFav" :[ "Lev Hamedina", "Hello Danka Live", "RTHK Radio 5" ]
+
+},
+{
+	"uID": "2",
+	"myFav" :["Radio Ava Film"]
+
+},
+{
+	"uID": "3",
+	"myFav" :["Radio Ava Film","Radio Rerza" ]
+
+},
+{
+	"uID": "4",
+	"myFav" :["100 FM", "Noshmim Mizrahit", "BFBS"  ]
+
+}
+
+]

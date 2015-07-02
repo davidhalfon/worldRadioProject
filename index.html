@@ -1,0 +1,58 @@
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>A simple map</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
+	<script src="jquery-2.1.3.js"></script>
+	<script src="scripts.js"></script>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="stylesheet" href="ui/jquery-ui.min.css">
+	<script src="ui/external/jquery/jquery.js"></script>
+	<script src="ui/jquery-ui.min.js"></script>
+
+</head>
+<body>
+	<div id='map'></div>
+	<form method = "GET" action = "./index.html">
+		<div class="ui-widget">
+		<input id="tags" class="inputS" name = "val" placeholder="Search for countries, towns or stations!">
+		</div>
+	</form>
+
+		<div class="david"> </div>
+	<div class ="favorites">
+		<button id="add">add</button>
+		<button id="sub">sub</button>
+		<button id="all">delete all</button>
+	 <ul class="list"></ul>
+	</div>
+
+	<div class="info" id="aa">
+		<h1 id="a"></h1>
+		<h1 id="b"></h1>
+		<h1 id="c"></h1>
+
+
+	</div>
+
+	<div class="player">
+		<audio id="music">
+  <source src="" >
+			
+	</audio>
+		<div id="audioplayer">
+			<button id ="rButton"></button>
+			<button id="pButton" class="play"></button>
+			<button id ="vButton"></button>
+			<div id="vBar">
+				<input type="range" class="vVertical" id="vol" max="1" min="0" step="0.01" />
+			</div>
+		</div>
+
+		</div>
+	
+
+	</body>
+	</html>

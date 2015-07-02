@@ -1,0 +1,157 @@
+.leaflet-container img.leaflet-marker-icon[src~="http://a.tiles.mapbox.com/v4/marker/pin-m+7e7e7e.png?access_token=pk.eyJ1IjoiZGF2aWRoYWxmb24iLCJhIjoibzZhZTlJdyJ9.ab2pmxikBxsmsWEvbfYVfw"]{display:none}
+
+body {
+		margin: 0;
+		padding: 0;
+	}
+	#map {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+	}
+
+	.player {
+		height: 200px;
+		font-family:Arial;
+		font-size:25px;
+		
+		left:40%;
+		bottom: 0%;
+		width: 240px;
+		position: absolute;
+	
+
+	}
+
+	.info{
+
+		height:300px;
+		width:200px;
+		position: absolute;
+		left: 0%;
+		top:40%;	
+		background: green;
+		display: none;	
+
+	}
+
+
+  .favorites{
+
+    height:300px;
+    width:20%;
+    position: absolute;
+    left: 80%;
+    top:40%;  
+    background: white;
+    overflow: auto;
+
+  }
+
+	.inputS{
+		height:40px;
+		width:270px;
+		position: absolute;
+		left:50px;
+		top:50px;
+		font-size: 14px;
+	}
+
+::-webkit-input-placeholder {
+   font-size:14px;
+   opacity: 0.7;
+}
+
+
+
+#pButton{
+    height:60px; 
+    width: 60px;
+    border: none;    
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+  margin-right:20px;
+  margin-top:125px;
+}
+
+#rButton{
+background: url('http://s8.postimg.org/k9l9h3zi9/random.png') ;
+     height:60px; 
+    width: 60px;
+    border: none;    
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+    margin-right:20px;  
+  margin-top:125px;
+}
+
+
+#vButton{
+background: url('http://s21.postimg.org/w2xrn11cz/sound.png') ;
+    height:60px; 
+    width: 60px;
+    border: none;    
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+  margin-top:125px;
+     
+}
+
+
+
+#vBar{
+  position:relative;
+  left: 128px;
+  top:-135px;
+  width:100px;
+  height:270px;
+  display: none;
+
+
+}
+
+#vButton:hover + #vBar{
+	display: block;
+}
+
+#vBar:hover{
+	display: block;
+}
+
+.play{background: url('http://s8.postimg.org/s0jlwpa4h/play.png') ;}
+.pause{background: url('http://s12.postimg.org/qd7m0fg61/pause.png') ;}
+
+
+input[type=range].vVertical {
+
+    -webkit-appearance: none;
+    background: #f9d343;
+    width: 120px;
+    height:2px;   
+     -webkit-transform:rotate(90deg);      
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    z-index: 0;
+   outline: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #f8d342;
+    width: 14px;
+    height: 14px;
+    border-radius:50%;
+   outline: 0;
+  
+}
+
+
