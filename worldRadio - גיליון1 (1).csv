@@ -1,0 +1,72 @@
+Continent,Country,City,Station,latitude,longitude,Url
+Asia,Afghanistan,Kabul,,34.533333,69.166667,http://50.117.26.26:3953/;stream.mp3
+Asia,Afghanistan,Kabul,BFBS,34.533333,69.1667,http://icy-e-03-boh.sharp-stream.com/ssvcbfbs9.mp3
+Asia,Bangladesh,Dhaka,Hello Danka Live,23.7805837,90.4162568,http://184.154.145.114:8000/stream
+Asia,Hong Kong,Kowloon,RTHK Radio 5,22.341834,114.181043,http://202.177.192.119/radio5
+Asia,Iran,Tehran,Radio Ava Film,35.696111,51.423056,http://38.99.146.102:8000/avafilm.mp3
+Asia,Iran,Tehran,Radio Rerza,35.72979186,51.34872437,http://38.99.146.102:8000/reza.mp3
+Asia,Iraq,Baghdad,Radio Nawa,33.325,44.422,http://nawaradio.primcast.com:4098/;stream.mp3
+Asia,Israel,Tel Aviv,100 FM,32.0852999,34.7817676,http://213.8.143.168/100Israeli
+Asia,Israel,Tel Aviv,Noshmim Mizrahit,32.06773788,34.76966858,http://www.rs.mizrahit.co.il:7777/;stream/1
+Asia,Israel,Rishon LeTsiyon,Radio Lev Hamedina,31.9916369,34.7747288,http://213.8.143.168/91fmAudio
+Asia,Japan,Tokyo,Asia DREAM Radio,35.6894875,139.6917064,http://streaming.radionomy.com/AsiaDREAMRadioJapan
+Asia,Jordan,Amman,Radio Haya,31.9565783,35.9456951,http://stream.purecore.net:8000/;?1396790272093.mp3
+Asia,Kazakhstan,Almaty,Energy FM,43.2519019,76.9322321,http://live26.kiwi.kz:8000/energyfm?
+Asia,Lebanon,Beirut,Sawt Al Farah,33.8886289,35.4954794,http://209.15.226.17:9036/stream
+Asia,Lebanon,Beirut,Voix Du Liban,33.88810531,35.48938036,http://209.15.226.17:9054/stream
+Asia,Malaysia,Kuching,Red FM,1.5550175,110.3408706,http://starrfm.rastream.com/starrfm-redfm
+Asia,Mongolia,Ulaanbaatar,MGLRADIO,47.92,106.92,http://50.7.76.251:8080/;stream.mp3?1423349710959.mp3
+Asia,Philippines,Manila,Rakista Radio,14.5995124,120.9842195,http://icecast.eradioportal.com:8000/yesfm_manila
+United States,Alabama,Tuscaloosa,WUAL 91.5 FM,33.209841,-87.569173,http://130.160.176.235:8800/hd1hi
+United States,Alaska,Juneau,KTOO 104.3 FM,58.301944,-134.419722,http://stream.ktoo.org:8000/ktoo
+United States,Arizona,Chino Valley,KDDL 94.3 FM,34.545777,-112.397785,http://stream.amellus.com:8000/KDDL.mp3
+United States,Arkansas,Little Rock,KABF - 88.3 FM,34.728654,-92.273735,http://amber.streamguys.com:4180/live
+United States,California,Oakland,Radio Soulism,37.804364,-122.271114,http://s3.radioboss.fm:8340/stream
+United States,West Virginia, Charleston,Public Radio,38.352427,-81.629462,http://live.str3am.com:7820/
+Asia,Russia,moscow,Forex Expo FM,55.741416,37.565992,http://radio.horoshee.fm:8000/mp3
+United States,Washington,columbia,WWRC 1260 AM,38.848582,-77.131324,http://192.69.212.61:8032/stream
+Asia,Russia,moscow,Radio 7,55.745718,37.662148,http://radio7128.streamr.ru
+Europe,France,Aurillac,Jordanne FM,44.9279514,2.444597,http://live.jordannefm.com:8000/JFMCantalMD.mp3
+Europe,France,Marseille,insidedancefloor,43.2955242,5.4193905,http://listen.shoutcast.com/insidedancefloor
+United States,Washington,Aberdeen,KXRO 1320 AM,46.975371,-123.815722,http://1.ice1.firststreaming.com/kxro_am.mp3
+Asia,Ukraine,Kyiv,Radio Chanson,50.46274957,30.49598694,http://213.128.218.54:8000/shanson
+United States,Virginia,Norfolk,WHRO 90.3 FM,36.850769,-76.285873,http://whro.mediaplayer.whro.org/128
+United States,New York,Albany,WAMC 90.3 FM,42.652579,-73.756232,http://pubint.ic.llnwd.net/stream/pubint_wamc
+Asia,Ukraine,Zaporizhzhia,Zaporozhye FM,47.86200993,35.17616272,http://80.254.3.174:8000/radio-zaporizja-fm
+Europe,Spain,Barcelona,Barcelona FM,41.2245762,1.7405105,http://195.10.10.225/barcelonatv/live.mp3?
+Europe,Spain,Barcelona,Radio TeleTaxi,41.450388,2.2082449,http://195.10.10.225/gtt/radioteletaxi.mp3?
+Europe,Sweden,Nacka,Radio Sotenas,59.3299571,18.207188,http://ice-cluster.streaming.xmc.se/radiosotenas
+United States,Utah,Saint George,KWBR - St. George,37.096528,-113.568416,http://broadcaster.smoothjazzutah.com:8000/kwbr
+United States,Utah,Delta,KHQN 1480 AM,39.35217,-112.57717,http://peridot.streamguys.com:5650/live
+Europe,Sweden,Malmö,Guldkanalen,55.6423521,13.2127203,http://stream.dbmedia.se/gkMP3
+United States,Texas,Abilene,KACU 89.7 FM,32.490943,-99.742573,http://stream1.kacu.org:8012/live
+United States,Texas,Denton,DentonRadio,33.214841,-97.133068,http://50.22.212.203:8069/;stream.mp3
+Europe,Norway,Oslo ,NRJ Norway,59.9174429,10.7440193,http://mms-live.online.no/p5_stavanger_mp3_mq?
+Europe,Norway,Kristiansand,Radio Sør Kristiansand,58.1452909,7.9819774,http://stream.radiosor.no/kristiansand128.mp3
+United States,Tennessee,Knoxville,Q106.8 Country,36.060556,-83.926942,http://listen.radionomy.com/q1068country
+United States,Tennessee,Memphis,Radio Wezi,35.149534,-90.04898,http://199.180.72.2:8508/stream
+Europe,Germany ,Garbsen,RADIO 21 Oldenburg,52.42854,9.62204,http://188.94.97.91/radio21_oldenburg.mp3
+Europe,Germany ,Saarland,1000 Goldschlager,49.3964234,7.0229607,http://stream.laut.fm/1000goldschlager
+United States,Pennsylvania,Pittsburgh,WQED 89.3,40.440625,-79.995886,http://wqed.ic.llnwd.net/stream/wqed_wqed
+United States,Pennsylvania,"State College,",WFGE 101.1 FM,40.793395,-77.860001,http://icy3.abacast.com/foreverofpa-wfgefmmp3-64
+United States,Oklahoma,Poteau,TBJS Radio Network,35.053709,-94.623558,http://master.streamonomy.com/tbjs
+Europe,Finland ,Turku,Radio Auran Aallot,60.4530204,22.2690973,http://nettiradio.auranaallot.fi/stream
+United States,Ohio,Gahanna,WCVO-HD2 104.9 FM,40.040929,-82.862352,http://stream.riverradio.com:8000/wcvohd2.mp3
+Europe,Finland ,Maenttae,Radio Autere,62.03634269,24.60868835,http://81.209.108.93:8000/autere?type=.mp3
+United States,Ohio,Newark,WZNP 89.3,40.040929,-82.862352,http://stream.riverradio.com:8000/wznpfm.mp3
+Europe,Poland,Katowice,Open.FM - Szanty,50.26213175,18.99604797,http://gr-relay-16.gaduradio.pl/50
+Europe,Poland,Wrocław,Akademickie Radio,51.1143359,16.996689,file:///Users/macmaster/Downloads/stations.html
+Europe,Italy,Verona,Radio Popolare Verona,45.36545,10.96838,http://50.7.173.162:8031/stream
+South America,Spain,Almeria,Mis Recuerdos,36.834047,-2.463714,http://listen.radionomy.com/misrecuerdos
+Europe,Italy,Benevento,Radio Telesia FM,41.2220136,14.5343944,http://shoutcast1.dns-lab.it:8106/;stream.mp3
+South America,Venezuela,Caracas,Éxitos 99.9 FM,10.46964,-66.803718,http://ur58.lorini.net:10999/exitosccs.mp3
+Europe,United Kingdom ,London,Premier Christian Radio,51.4917323,-0.1332889,http://icy-e-04.sharp-stream.com:80/premiergospellow.mp3
+Europe,United Kingdom ,London,Woodside Hospital Radio,51.5222934,0.0359148,http://stream.woodsideradio.com:8000/WSR
+South America,Brazil,Rio de Janeiro,Radio 93 FM,-22.904797,-43.212735,http://1852.live.streamtheworld.com:3690/FM93_SC
+Europe,Romania,Oradea,Radio Oldies Romania,47.06263848,21.90879822,http://radiooldies.no-ip.biz:9200/;
+South America,Chile,Santiago,AM 920 Nueve veinte,-33.44889,-70.669265,http://74.222.7.26:25812/stream
+South America,Colombia,Santander de Quilichao,Quilisalsa,3.01228,-76.484533,http://streaming.radionomy.com/Quilisalsa
+Europe,Belarus,Minsk,radio 123,53.9045398,27.5615244,http://93.84.112.253:8036/autodj
+North America,Canada,Waterloo,Sound FM Canada,43.468888,-80.523204,
+Europe,Kazakhstan ,Aksay,"Radio ""Aksay""",51.1749425,53.0211497,http://s2.radioboss.fm:8111/stream
+Europe,Greece,Athens,Akous ,37.98100997,23.71879578,http://ice.onestreaming.com/akousbreeze

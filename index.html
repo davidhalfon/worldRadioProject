@@ -1,10 +1,11 @@
 <html>
 <head>
 	<meta charset=utf-8 />
-	<title>A simple map</title>
+	<title>World Radio</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
 	<script src="jquery-2.1.3.js"></script>
 	<script src="scripts.js"></script>
 	<link rel="stylesheet"  href="style.css">
@@ -12,47 +13,100 @@
 	<script src="ui/external/jquery/jquery.js"></script>
 	<script src="ui/jquery-ui.min.js"></script>
 
+
+
 </head>
 <body>
-	<div id='map'></div>
-	<form method = "GET" action = "./index.html">
-		<div class="ui-widget">
-		<input id="tags" class="inputS" name = "val" placeholder="Search for countries, towns or stations!">
+	<div class=lightBox id="welcome">
+		<p class="p1">World Radio</p>
+		<p class="p2">World-Radio is an interactive project witch plays<br> radio-stations all around the world, and creates an<br> cross-cultural experience</p>
+		<p class="p3">Who Are We?</p>
+		<p class="p4">3rd year studens from Israel <br><br>
+			Programming:  <a class="contact" href="mailto:halfon7@gmail.com">David Halfon</a><br><br>
+			Graphics  : <a class="contact" href="gabilicious1@gmail.com">Gabriela Boleslavsky</a>
+			 & <a class="contact" href="an1990a@gmail.com">Anna Polishuk</a> <br><br>
+			Ui+Ux : <a class="contact" href="gabilicious1@gmail.com">Gabriela Boleslavsky</a>
+			 & <a class="contact" href="an1990a@gmail.com">Anna Polishuk</a> <br><br>
+			Lecturer: <a class="contact" href="mushon@shual.com">Mushon Zer-Aviv</a><br><br><br>
+			<p class="p5">This site is for educational purposes only</p5>
+			</p>
 		</div>
-	</form>
 
-		<div class="david"> </div>
-	<div class ="favorites">
-		<button id="add">add</button>
-		<button id="sub">sub</button>
-		<button id="all">delete all</button>
-	 <ul class="list"></ul>
-	</div>
+	<div class="lightBox" id="addR">
 
-	<div class="info" id="aa">
-		<h1 id="a"></h1>
-		<h1 id="b"></h1>
-		<h1 id="c"></h1>
+		<p class="p6">Station Request</p>
+		<p class="p7">Want to add your station? fill up this application form and we <br> will review your request.</p>
+		<form action="sendmail.php" method="post">
 
-
-	</div>
-
-	<div class="player">
-		<audio id="music">
-  <source src="" >
-			
-	</audio>
-		<div id="audioplayer">
-			<button id ="rButton"></button>
-			<button id="pButton" class="play"></button>
-			<button id ="vButton"></button>
-			<div id="vBar">
-				<input type="range" class="vVertical" id="vol" max="1" min="0" step="0.01" />
+			<div class="addRformBox"> Station name
+				<input class="inputAdd"/ name="name" required>
 			</div>
-		</div>
 
-		</div>
+			<div class="addRformBox">  Full address
+				<input class="inputAdd" name ="address" required/>
+			</div>
+
+			<div class="addRformBox">  Streaming URL
+				<input class="inputAdd" name="url" required/>
+			</div>
+
+			<div class="addRformBox">  Email
+				<input class="inputAdd" name"email" type="email" required/>
+			</div>
+
+			 <input class="submitB" type="submit" name="submit" value="Done"/> 
+		</form>
+
+	</div>
+
+
+		<div id='map'></div>
+		<div class="trans"></div>
+		<form method = "GET" action = "./index.html">
+			<div class="ui-widget">
+				<input id="tags" class="inputS" name = "val" placeholder=" "  >
+			</div>
+
+		</form>
+
+		<h1></h1>
+		<h2></h2>
+		<h3></h3>
+		<h4></h4>
 	
+		<a class="shareB" href="" target="_blank"></a>
 
-	</body>
-	</html>
+
+		<a href="#"><div class="plusB"></div></a>
+		<a href="#"><div class="burger1"></div></a>
+		<a href="#"><div class="que"></div></a>
+		<a href="#"><div class="addRButton"></div></a>
+		<div class ="favorites">
+			<div class="favHeader">Favorites <div class="burger2"></div> </div>
+
+			<div id="stationHolder"></div>
+
+		</div>
+
+
+
+		<div class="player">
+			<audio id="music">
+				<source src="" >
+
+				</audio>
+				<div id="audioplayer">
+
+					<button id="pButton" class="play" class="pause"></button>
+					<button id ="vButton"></button>
+					<div id="vBar">
+						<input type="range" class="vVertical" id="vol" max="1" min="0" step="0.01" />
+					</div>
+					<button id ="sButton"></button>
+				</div>
+
+			</div>
+
+
+		</body>
+		</html>
